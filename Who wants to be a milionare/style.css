@@ -1,0 +1,142 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: rgba(54, 106, 129, .8);
+}
+.nav-flex{
+	display: flex;
+	flex-direction: row;
+	width: auto;
+	background-color: white;
+	margin-bottom: 2px;
+}
+.nav{
+	width: 50vw;
+	height: 5vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	width: 95vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.question-container{
+	height: 60vh;
+	width: 90vw;
+	justify-content: center;
+	border: 3px solid white;
+	border-radius: 5px;
+	margin: 5px 0px 5px 0px;
+	font-size: 40px;
+	font-family: monospace, sans-serif;
+	background-color: rgb(37, 40, 61);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#jokers{
+	height: 10vh;
+}
+.bt-j{
+	height: 5vh;
+	width: 40vw;
+	border-radius: 5px;
+	border: 3px solid white;
+	margin: 5px 5px 5px 5px;
+	background-color: rgb(37, 40, 61);
+	color: white;
+	font-family: monospace, sans-serif;
+	font-size: 20px;
+}
+#question{
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bt-grid{
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+}
+.bt{
+	height: 10vh;
+	width: 40vw;
+	border-radius: 5px;
+	border: 3px solid white;
+	margin: 5px 5px 5px 5px;
+	background-color: rgb(37, 40, 61);
+	color: white;
+	font-family: monospace, sans-serif;
+	font-size: 20px;
+}
+.hide{
+	display: none;
+}
+.bt:hover{
+	background-color: rgb(65, 78, 180);
+	color: black;
+}
+.bt-j:hover{
+	background-color: rgb(65, 78, 180);
+	color: black;
+}
+.right{
+	background-color: green;
+}
+.wrong{
+	background-color: red;
+}
+.audience{
+	width: 20vw;
+	height: 10vh;
+}
+.bodovi{
+	width: auto;
+	height: 10vh;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.pitanje{
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+}
+.flex-col{
+	display: flex;
+	flex-direction: column;
+}
+.naslov{
+	font-size: 30px;
+	font-family: monospace, sans-serif;
+	color: white;
+}
+.flex-col2{
+	display: flex;
+	flex-direction: column;
+	margin: 10px 5px 10px 5px;
+}
+.center{
+	align-items: center;
+	justify-content: center;
+	color: white
+}
+.flex-col2 > p{
+	color: white;
+	font-size: 20px;
+}
+.t{
+	color: white;
+}
